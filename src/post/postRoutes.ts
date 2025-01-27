@@ -1,5 +1,10 @@
 import express from "express";
-import { createPostController, deletePostController, getAllUserPostController, updatePostController } from "./postConrtroller";
+import {
+  createPostController,
+  deletePostController,
+  getAllUserPostController,
+  updatePostController,
+} from "./postConrtroller";
 
 const router = express.Router();
 

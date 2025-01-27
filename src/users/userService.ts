@@ -1,7 +1,7 @@
 import { UsersI } from "../type";
 import User from "./userModel";
 import bcrypt from "bcryptjs";
-import {  userSchema } from "./userValidation";
+import { userSchema } from "./userValidation";
 import Post from "../post/postModel";
 
 export const createUserService = async (userId: string, data: UsersI) => {

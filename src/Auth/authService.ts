@@ -18,5 +18,5 @@ export const loginService = async (data: Login) => {
     process.env.JWT_SECRET!,
     { expiresIn: "1h" }
   );
-  return { jwtToken, message: "Login Successfully" , success: true};  
+  return { jwtToken, message: "Login Successfully", success: true };
 };

@@ -64,7 +64,7 @@ export const userDeteleController = async (req: Request, res: Response) => {
   } catch (error: any) {
     res.status(500).json({ message: error.message });
   }
-};  
+};
 
 export const updateUserController = async (req: Request, res: Response) => {
   try {

@@ -25,7 +25,7 @@ const UserSchema = new Schema<Users>(
       type: String,
       required: true,
     },
-    name:{
+    name: {
       type: String,
       required: true,
     },

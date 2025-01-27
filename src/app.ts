@@ -9,12 +9,10 @@ import upload from "./utils/uploadImageConfig";
 import path from "path";
 import cors from "cors";
 
-
 connectDB();
 
 const app = express();
 app.use(express.json());
-
 
 const corsOptions = {
   origin: process.env.CORS_ORIGIN,
@@ -22,9 +20,7 @@ const corsOptions = {
   credentials: true,
 };
 
-
 app.use(cors(corsOptions));
-
 
 app.use("/uploads", express.static(path.join(__dirname, "../uploads")));
 // app.get("/ping", (_req, res) => {

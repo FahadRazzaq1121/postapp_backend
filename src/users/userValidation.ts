@@ -19,4 +19,3 @@ export const userSchema = Yup.object({
 })
   .noUnknown(true)
   .strict(true);
-
